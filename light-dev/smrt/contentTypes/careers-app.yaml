@@ -1,0 +1,23 @@
+# Automatically generated contentType demonstrates usage of the common properties.
+# Modify them to match your requirements.
+datasource:
+    workspace: careers-app
+
+    # Optionally configure a custom namespace. (Replace [myNamespace] everywhere.)
+    # This namespace can then be used below for the nodetype.
+    # namespaces:
+    #   [myNamespace]: https://www.[myDomain.com]/jcr/1.0/[myNamespace]
+    autoCreate: true
+
+model:
+    nodeType: mgnl:careers
+    properties:
+    - name: jobPurpose
+      label: Job purpose
+      type: richText
+    - name: responsibilities
+      label: Responsibilities
+      type: richText
+    - name: department
+      label: Department
+      type: String

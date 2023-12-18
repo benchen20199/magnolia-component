@@ -1,0 +1,72 @@
+!content-type:navigation
+name: navigation-app
+icon: icon-sitemaps-app
+permissions:
+  roles:
+    editor: editor
+    publisher: publisher
+subApps:
+  detail:
+    form:
+      properties:
+        display:
+          defaultValue: true
+        title:
+          required: true
+        description:
+          rows: 5
+        url:
+          i18n: true
+          $type: switchableField
+          field:
+            $type: radioButtonGroupField
+            defaultValue: page
+            datasource:
+              $type: optionListDatasource
+              options:
+                page:
+                  value: page
+                external:
+                  value: external
+          itemProvider:
+            $type: jcrChildNodeProvider
+          forms:
+            external:
+              properties:
+                external:
+                  $type: textField
+            page:
+              properties:
+                page:
+                  $type: linkField
+                  chooser:
+                    workbenchChooser:
+                      appName: pages-app
+  browser:
+    actions:
+      addItem:
+        availability:
+          nodeTypes:
+            paNavigation: mgnl:navigation
+      publishRecursive:
+        icon: icon-publish
+        $type: jcrCommandAction
+        command: publish
+        asynchronous: true
+        params:
+          recursive: true
+        label: Publish incl. subnodes
+        availability:
+          rules:
+            notDeleted:
+              $type: jcrIsDeletedRule
+              negate: true
+            isPublishable:
+              $type: jcrPublishableRule
+    actionbar:
+      sections:
+        folder:
+          groups:
+            activationActions:
+              items:
+                - name: publishRecursive

@@ -1,0 +1,25 @@
+form:
+  properties:
+    title:
+      $type: textField
+      label: Title
+      i18n: true
+      required: true
+    items:
+      i18n: true
+      label: Businesses
+      $type: jcrMultiField
+      itemProvider:
+        $type: jcrChildNodeProvider
+      field:
+        $type: compositeField
+        properties:
+          logo:
+            $type: damLinkField
+            showOptions: true
+            label: Logo
+            required: true
+          link:
+            $type: textField
+            label: Link
+            required: true

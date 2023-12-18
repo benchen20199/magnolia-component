@@ -1,0 +1,5 @@
+[#assign imagesInResources = "${ctx.contextPath}/.resources/smrt/webresources/image"]
+[#assign imagesTMPInResources = "${ctx.contextPath}/.resources/smrt/webresources/images-tmp"]
+[#assign htmlInResources = "${ctx.contextPath}/.resources/smrt/webresources/smrt_files"]
+[#assign jsInResources = "${ctx.contextPath}/.resources/smrt/webresources/js"]
+[#assign cssInResources = "${ctx.contextPath}/.resources/smrt/webresources/css"]

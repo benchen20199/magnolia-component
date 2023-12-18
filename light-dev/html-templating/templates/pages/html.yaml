@@ -1,0 +1,13 @@
+title: HTML Page Template
+templateScript: /html-templating/templates/pages/html.ftl
+dialog: mtk2:pages/basic
+renderType: freemarker
+class: info.magnolia.module.site.templates.PageTemplateDefinition
+
+areas:
+  main:
+    availableComponents:
+      html:
+        id: mtk2:components/html
+      textImage:
+        id: mtk2:components/textImage

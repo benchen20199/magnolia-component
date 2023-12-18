@@ -1,0 +1,6 @@
+title: Full HTML
+templateScript: /smrt/templates/pages/full-html.ftl
+renderType: freemarker
+dialog: smrt:pages/full-html
+visible: true
+

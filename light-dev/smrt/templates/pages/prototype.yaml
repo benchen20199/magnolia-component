@@ -1,0 +1,26 @@
+dialog: mtk2:pages/basic
+class: info.magnolia.module.site.templates.PrototypeTemplateDefinition
+
+templateScript: /smrt/templates/pages/main.ftl
+renderType: site
+type: feature
+
+areas:
+  htmlHeader:
+    createAreaNode: false
+    renderType: freemarker
+    templateScript: /smrt/templates/pages/areas/htmlHeader.ftl
+    type: noComponent
+  navigation:
+    createAreaNode: false
+    renderType: freemarker
+    templateScript: /smrt/templates/pages/areas/navigation.ftl
+    type: noComponent
+  main:
+    type: list
+    templateScript: /smrt/templates/pages/areas/contentContainer.ftl
+  footer:
+    editable: false
+    templateScript: /smrt/templates/pages/areas/footer.ftl
+    type: noComponent
+

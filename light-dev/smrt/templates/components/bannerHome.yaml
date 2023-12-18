@@ -1,0 +1,4 @@
+title: Banner home
+renderType: freemarker
+templateScript: /smrt/templates/components/bannerHome.ftl
+dialog: smrt:components/bannerHome

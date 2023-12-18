@@ -1,0 +1,39 @@
+.websparks_banner  
+{
+    position: relative; 
+    overflow: auto; 
+}
+.websparks_banner ul  
+{
+    margin:0 !important;
+}
+.websparks_banner ul li  
+{
+    float: left;
+    list-style: none; 
+    position:relative;
+}
+
+.websparks_banner .banner-text 
+{
+    position:absolute; 
+    top:50px; 
+    left:30px
+}
+.websparks_banner .banner-text h2.banner-title 
+{
+    background-color: #000; 
+    padding:15px; 
+    color:#FFF; 
+    opacity:.8
+}
+.websparks_banner .banner-text p.banner-desc
+{
+    color:#FFF
+}
+.websparks_banner .banner-text .readmore 
+{
+    background:blue; 
+    padding:5px; 
+    color:#FFF
+}

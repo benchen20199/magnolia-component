@@ -1,0 +1,23 @@
+groups: !override
+  - name: edit
+    label: SMRT Content
+    apps: !override
+      - name: assets
+  - name: travel
+    label: Travel Content
+    apps:
+      - name: tours
+      - name: tourCategories
+      - name: stories
+      - name: contacts
+      - name: campaigns
+      - name: audit
+      - name: style
+  - name: target
+  #  Set up
+  - name: manage
+  - name: tools
+  - name: dev
+  #  Web dev
+  - name: stk
+

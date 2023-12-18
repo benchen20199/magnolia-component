@@ -1,0 +1,4 @@
+title: Social feeds
+renderType: freemarker
+templateScript: /smrt/templates/components/socialFeeds.ftl
+#dialog: smrt:components/socialFeeds

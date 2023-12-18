@@ -1,0 +1,9 @@
+appLauncherLayout:
+  groups:
+    edit:
+      apps: !override
+        - name: pages-app
+#    travel:
+#      apps:
+#        - name: tours
+#        - name: tourCategories

@@ -1,0 +1,22 @@
+dialog: smrt:pages/home
+title: SMRT's Home Page
+visible: true
+class: info.magnolia.module.site.templates.PageTemplateDefinition
+
+renderType: site
+type: home
+areas:
+  main:
+    type: list
+    availableComponents:
+      textImage:
+        id: mtk2:components/textImage
+      html:
+        id: mtk2:components/html
+      bannerHome:
+        id: smrt:components/bannerHome
+      homeBusiness:
+        id: smrt:components/homeBusiness
+      socialFeeds:
+        id: smrt:components/socialFeeds
+

@@ -1,0 +1,6 @@
+title: Section Landing Page
+templateScript: /smrt/templates/pages/landing-page.ftl
+renderType: freemarker
+dialog: smrt:pages/landing-page
+visible: true
+

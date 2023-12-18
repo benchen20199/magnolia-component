@@ -1,0 +1,39 @@
+title: SMRT - Announcements
+renderType: freemarker
+dialog: smrt:pages/announcements
+templateScript: /smrt/templates/pages/announcements.ftl
+areas:
+  headHtml:
+    createAreaNode: false
+    renderType: freemarker
+    templateScript: /smrt/templates/pages/areas/headHtml.ftl
+    type: noComponent
+  form:
+    createAreaNode: false
+    renderType: freemarker
+    templateScript: /smrt/templates/pages/areas/form.ftl
+    type: noComponent
+    areas:
+      formHeader:
+        type: noComponent
+        templateScript: /smrt/templates/pages/areas/formHeader.ftl
+      formMain:
+        createAreaNode: false
+        renderType: freemarker
+        type: noComponent
+        templateScript: /smrt/templates/pages/areas/formMain.ftl
+        areas:
+          main:
+            type: list
+            availableComponents:
+              articleBody:
+                id: smrt:components/articleBody
+              html:
+                id: mtk2:components/html
+              textImage:
+                id: mtk2:components/textImage
+              teaser:
+                id: smrt:components/teaser
+      formFooter:
+        type: noComponent
+        templateScript: /smrt/templates/pages/areas/formFooter.ftl

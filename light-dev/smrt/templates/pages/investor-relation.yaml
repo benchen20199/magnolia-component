@@ -1,0 +1,6 @@
+title: Investor Relation Details
+templateScript: /smrt/templates/pages/investor-relation.ftl
+renderType: freemarker
+dialog: smrt:pages/investor-relation
+visible: true
+

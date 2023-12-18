@@ -1,0 +1,19 @@
+class: info.magnolia.rest.delivery.jcr.v2.JcrDeliveryEndpointDefinition
+workspace: website
+depth: 10
+bypassWorkspaceAcls: true
+systemProperties:
+  - mgnl:template
+nodeTypes:
+  - mgnl:page
+  - mgnl:area
+childNodeTypes:
+  - mgnl:area
+  - mgnl:component
+  - mgnl:contentNode
+references:
+  - name: assetReference
+    propertyName: image
+    referenceResolver:
+      class: info.magnolia.rest.reference.dam.AssetReferenceResolverDefinition
+      implementationClass: info.magnolia.dam.focal.rest.reference.AssetFocalReferenceResolver

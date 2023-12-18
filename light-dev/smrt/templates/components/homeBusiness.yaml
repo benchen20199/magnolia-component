@@ -1,0 +1,4 @@
+title: Home business
+renderType: freemarker
+templateScript: /smrt/templates/components/homeBusiness.ftl
+dialog: smrt:components/homeBusiness

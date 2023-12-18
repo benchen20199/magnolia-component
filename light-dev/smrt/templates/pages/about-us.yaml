@@ -1,0 +1,6 @@
+title: About Us Details
+templateScript: /smrt/templates/pages/about-us.ftl
+renderType: freemarker
+dialog: smrt:pages/about-us
+visible: true
+

@@ -1,0 +1,91 @@
+'smrt-announcement':
+  'image': 'jcr:1390e1ac-6caa-4719-9e0d-2af8ac839cec'
+  'jcr:primaryType': 'mgnl:page'
+  'jcr:uuid': 'fad9ad82-ab1c-459d-97a9-ccbf270a58e2'
+  'mgnl:created': 2021-10-19T17:21:03.738+08:00
+  'mgnl:createdBy': 'superuser'
+  'mgnl:lastModified': 2021-10-19T17:22:18.353+08:00
+  'mgnl:lastModifiedBy': 'superuser'
+  'mgnl:template': 'smrt:pages/announcements'
+  'publishDate': 2021-10-26T17:20:51.000+08:00
+  'title': 'Media Release - SMRT Trains conducts flood response preparedness exercise
+    at Paya Lebar MRT station'
+  'formHeader':
+    'jcr:primaryType': 'mgnl:area'
+    'jcr:uuid': '16119ff2-c592-4cf1-8df8-a7558826ce0a'
+    'mgnl:created': 2021-10-19T17:21:06.133+08:00
+    'mgnl:createdBy': 'superuser'
+    'mgnl:lastModified': 2021-10-19T17:21:06.133+08:00
+    'mgnl:lastModifiedBy': 'superuser'
+  'main':
+    'jcr:primaryType': 'mgnl:area'
+    'jcr:uuid': '142e04f4-2768-445a-b227-6793ca4eecce'
+    'mgnl:created': 2021-10-19T17:21:06.386+08:00
+    'mgnl:createdBy': 'superuser'
+    'mgnl:lastModified': 2021-10-19T17:22:18.353+08:00
+    'mgnl:lastModifiedBy': 'superuser'
+    '0':
+      'body': "\n<p style=\"text-align: center;\">&nbsp;</p>\n\n<ol>\n    <li>To reinforce\
+        \ the training and operational readiness of SMRT staff in\n        the prevention\
+        \ of potential station flooding, SMRT Trains conducted\n        a ground deployment\
+        \ exercise on the Circle Line at Paya Lebar MRT\n        station on 17 September\
+        \ 2021.<br>\n        <br>\n        &nbsp;\n    </li>\n    <li>The exercise\
+        \ demonstrated:</li>\n</ol>\n\n<p style=\"margin-left: 40px;\">i. Close monitoring\
+        \ of the threat of flooding\n    via the national water agency PUB’s high\
+        \ water level alert system</p>\n\n<p style=\"margin-left: 40px;\">ii. Activation\
+        \ of the graduated flood response\n    plan</p>\n\n<p style=\"margin-left:\
+        \ 40px;\">iii. Safe and timely deployment of flood\n    barriers at the station’\
+        s entrances</p>\n\n<p>&nbsp;</p>\n\n<ol start=\"3\">\n    <li>Mr Lam Sheau\
+        \ Kai, President, SMRT Trains, said, “We are pleased with\n        the results\
+        \ of the exercise. Different teams across SMRT Trains –\n        including\
+        \ the Operations Control Centre (OCC), Station Operations\n        and Maintenance\
+        \ Operations Centre (MOC) – coordinated well and\n        executed their roles\
+        \ promptly in response to the flooding scenario.\n        We will continue\
+        \ to reinforce the training of our staff, and\n        regularly maintain\
+        \ our activation processes and flood prevention\n        system. When the\
+        \ need arises, we are ready to answer the call of\n        duty in different\
+        \ and difficult situations.”\n    </li>\n</ol>\n\n<p>&nbsp;</p>\n\n<ol start=\"\
+        4\">\n    <li>Refresher training for SMRT staff in responding to a flooding\n\
+        \        situation, among other exercises, is conducted twice a year. SMRT\n\
+        \        will continue to work with the relevant agencies to review flood\n\
+        \        protection measures to strengthen their effectiveness amid climate\n\
+        \        changes.\n    </li>\n</ol>\n\n<p>&nbsp;</p>\n\n<ol start=\"5\">\n\
+        \    <li>According to the 17 September exercise scenario, heavy thundery\n\
+        \        showers with strong gusty winds approached the north-eastern part\
+        \ of\n        Singapore. When waters in the Geylang River rose above 75% of\
+        \ the\n        river’s capacity, OCC placed on alert the Flood Response Team,\
+        \ which\n        comprises 30 SMRT staff from depots and other stations. Meanwhile,\n\
+        \        the Paya Lebar station staff continually checked the station\n  \
+        \      surroundings.\n    </li>\n</ol>\n\n<p>&nbsp;</p>\n\n<ol start=\"6\"\
+        >\n    <li>When the water level in Geylang River rose above 90%, the Flood\n\
+        \        Response Team was activated to report to Paya Lebar station. Upon\n\
+        \        arrival, the Flood Response Team moved the stackable flood barriers\n\
+        \        into position at designated entrances of the station.\n    </li>\n\
+        </ol>\n\n<p>&nbsp;</p>\n\n<ol start=\"7\">\n    <li>When the exercise scenario\
+        \ had the waters rising above ground-level\n        drains and submerging\
+        \ footpaths around the station, the stackable\n        flood barriers were\
+        \ deployed within 30 minutes by the Flood Response\n        Team. In an actual\
+        \ flood incident, the Singapore Civil Defence Force\n        (SCDF) would\
+        \ be informed concurrently at this point. Commuters would\n        also be\
+        \ alerted to the situation via station announcements and on\n        SMRT’\
+        s social media platforms.\n    </li>\n</ol>\n\n<p>&nbsp;</p>\n\n<ol start=\"\
+        8\">\n    <li>Observers from the Land Transport Authority (LTA), Public Transport\n\
+        \        Security Command (TransCom) and SCDF attended the exercise, which\n\
+        \        lasted two hours.\n    </li>\n</ol>\n\n<p>&nbsp;</p>\n\n<p style=\"\
+        text-align: center;\">-End-</p>"
+      'jcr:primaryType': 'mgnl:component'
+      'jcr:uuid': '00536ef3-a327-4359-a8f9-c74ac7fbb101'
+      'mgnl:created': 2021-10-19T17:21:43.441+08:00
+      'mgnl:createdBy': 'superuser'
+      'mgnl:lastModified': 2021-10-19T17:22:18.353+08:00
+      'mgnl:lastModifiedBy': 'superuser'
+      'mgnl:template': 'smrt:components/articleBody'
+      'title': 'SMRT Trains conducts flood response preparedness exercise at Paya
+        Lebar MRT station'
+  'formFooter':
+    'jcr:primaryType': 'mgnl:area'
+    'jcr:uuid': '8efc69e6-8b91-4af8-acc2-9b28a7118960'
+    'mgnl:created': 2021-10-19T17:21:06.469+08:00
+    'mgnl:createdBy': 'superuser'
+    'mgnl:lastModified': 2021-10-19T17:21:06.469+08:00
+    'mgnl:lastModifiedBy': 'superuser'

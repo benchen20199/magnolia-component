@@ -1,0 +1,4 @@
+title: Article Body
+renderType: freemarker
+templateScript: /smrt/templates/components/articleBody.ftl
+dialog: smrt:components/articleBody

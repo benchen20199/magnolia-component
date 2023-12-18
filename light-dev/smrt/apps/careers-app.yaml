@@ -1,0 +1,21 @@
+!content-type:careers-app
+name: careers-app
+label: Careers
+icon: icon-forums-app
+permissions:
+  roles:
+    superuser: superuser
+    editors: editors
+    publisher: publisher
+
+# Optionally override any of the app configuration supplied by the content type.
+subApps:
+  detail:
+    form:
+      properties:
+        jobPurpose:
+          $type: richTextField
+          source: true
+        responsibilities:
+          $type: richTextField
+          source: true

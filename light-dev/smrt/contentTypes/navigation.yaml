@@ -1,0 +1,13 @@
+datasource:
+  workspace: navigation
+  autoCreate: true
+
+model:
+  nodeType: mgnl:navigation
+  properties:
+    - name: display
+      type: Boolean
+    - name: title
+      i18n: true
+    - name: description
+      i18n: true

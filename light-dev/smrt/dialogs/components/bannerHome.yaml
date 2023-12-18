@@ -1,0 +1,22 @@
+form:
+  properties:
+    autoGenerate:
+      $type: checkBoxField
+      label: Auto Generate
+      buttonLabel: Select to auto generate the sliders
+    items:
+      label: Items
+      i18n: true
+      $type: jcrMultiField
+      itemProvider:
+        $type: jcrChildNodeProvider
+      field:
+        $type: compositeField
+        properties:
+          pageChooser:
+            label: page chooser 
+            $type: pageLinkField
+            required: true
+            showOptions: true
+            textInputAllowed: true
+            converterClass: info.magnolia.ui.editor.converter.JcrNodeToIdentifierConverter   

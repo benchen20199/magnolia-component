@@ -1,0 +1,44 @@
+label: Dialog
+form:
+  properties:
+    title:
+      $type: textField
+      label: page title
+    image:
+      $type: damLinkField
+      textInputAllowed: true
+      label: feature image
+    publishDate:
+      $type: dateField
+      label: publishing date
+      type: java.util.Date
+      time: true
+    description:
+      $type: textField
+      label: description
+    copyright:
+      $type: textField
+      label: copyright
+    robots:
+      $type: textField
+      label: robots
+
+  layout:
+    $type: tabbedLayout
+    tabs:
+      pageInfoTab:
+        label: Page info
+        fields:
+          - name: title
+          - name: image
+          - name: publishDate
+      metaDataTab:
+        label: Additional Meta data
+        fields:
+          - name: description
+          - name: copyright
+          - name: robots
+footerLayout:
+  $type: defaultEditorActionLayout
+  primaryActions:
+    commit: commit

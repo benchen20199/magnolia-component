@@ -1,0 +1,6 @@
+title: Redirect Page
+templateScript: /smrt/templates/pages/redirect.ftl
+renderType: freemarker
+dialog: smrt:pages/redirect
+visible: true
+
